@@ -1,0 +1,35 @@
+.header {
+  padding: 39px 50px;
+  border-bottom: 1px solid #EAEAEE;
+}
+
+.header-nav {
+    list-style-type: none;
+    gap: 39px;
+
+    .drop-item {
+        gap: 6.03px;
+    }
+
+    .nav-item-donate {
+        padding-left: 26px;
+        background: url("/public/images/heart.png") no-repeat;
+        background-position-y: 2px;
+    }
+}
+
+.header-nav-item {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--primary-light);
+
+    a {
+        color: var(--primary-light);
+
+        &:hover {
+            color: var(--accent-light);
+        }
+    }
+}
