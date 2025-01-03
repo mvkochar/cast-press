@@ -1,5 +1,5 @@
 .home-container {
-    margin-top: 295px !important;
+    margin-top: 122px !important;
 }
 
 .home-main {
@@ -135,5 +135,70 @@
         background-color: transparent;
         border: none;
     }
+}
 
+.home-team {
+    margin-top: 60px;
+}
+
+.home-bl-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--primary-light);
+}
+
+.home-team-box {
+    margin-top: 25px;
+    gap: 69px;
+}
+
+.home-posts {
+    margin-top: 64px;
+    margin-bottom: 49px;
+}
+
+.home-posts-box {
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.home-posts-item {
+    gap: 39px;
+
+    .posts-item-title {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 25px;
+        color: var(--primary-light);
+    }
+
+    .posts-item-date {
+        margin-top: 16px;
+        font-size: 14px;
+        color: #979797;
+    }
+
+    .posts-item-more {
+        display: block;
+        margin-top: 39px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        color: var(--accent-light);       
+    }
+}
+
+.home-posts-view {
+    display: block;
+    width: 106px;
+    margin-top: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #F5F5F7;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--accent-light);
 }

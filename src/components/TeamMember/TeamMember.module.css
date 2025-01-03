@@ -1,0 +1,32 @@
+.team_member {
+    width: 301px;
+    height: 435px;
+    background-color: #F5F5F7;
+    border-radius: 4px;
+}
+
+.team_member_info {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.team_member_pos {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent-light);
+}
+
+.team_member_name {
+    margin-top: 8px;
+    font-size: 18px;
+    color: var(--primary-light);
+}
+
+.team_member_social {
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+    gap: 16.7px;
+}
