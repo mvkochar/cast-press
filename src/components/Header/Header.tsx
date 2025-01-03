@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header className="header d-f jc-sb align-center">
-           <div><img src="/images/logo.svg" alt="Logo" /></div>
+           <div><Link to="/"><img src="/images/logo.svg" alt="Logo" /></Link></div>
            <nav>
             <ul className="header-nav d-f align-center">
                 <li className="header-nav-item drop-item d-f">
@@ -15,7 +15,7 @@ const Header = () => {
                 </li>
                 <li className="header-nav-item"><a href="">Blog</a></li>
                 <li className="header-nav-item"><a href="">Packages</a></li>
-                <li className="header-nav-item"><a href="">Contact</a></li>
+                <li className="header-nav-item"><Link to="/contact">Contact</Link></li>
                 <li className="header-nav-item nav-item-donate"><a href="">Donate</a></li>
                 <li><button className='btn-clear d-b'><img src="/images/search.png" alt="search" /></button></li>
             </ul>
