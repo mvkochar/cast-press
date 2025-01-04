@@ -1,0 +1,32 @@
+.donate-main {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    margin-left: 389px;
+}
+
+.donate-main-title {
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--primary-light);
+}
+
+.donate-main-desc {
+    max-width: 667px;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--gray-light);
+}
+
+.donate-main-link {
+    display: block;
+    width: 122px;
+    margin-top: 39px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var(--accent-light);
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: #F5F5F7;
+}

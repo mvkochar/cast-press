@@ -13,10 +13,10 @@ const Header = () => {
                     <a href="">Episodes</a>
                     <button type="button" className='btn-clear d-b'><img src="/images/drop-icon.png" alt="drop" /></button>
                 </li>
-                <li className="header-nav-item"><a href="">Blog</a></li>
-                <li className="header-nav-item"><a href="">Packages</a></li>
+                <li className="header-nav-item"><Link to="/blog">Blog</Link></li>
+                <li className="header-nav-item"><Link to="/about">About</Link></li>
                 <li className="header-nav-item"><Link to="/contact">Contact</Link></li>
-                <li className="header-nav-item nav-item-donate"><a href="">Donate</a></li>
+                <li className="header-nav-item nav-item-donate"><Link to="/donate">Donate</Link></li>
                 <li><button className='btn-clear d-b'><img src="/images/search.png" alt="search" /></button></li>
             </ul>
            </nav>
