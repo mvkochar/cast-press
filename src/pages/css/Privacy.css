@@ -1,0 +1,49 @@
+.privacy-container {
+    max-width: 667px;
+    margin-top: 96px;
+    margin-bottom: 64px;
+    margin-left: 387px;
+}
+
+.privacy-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--primary-light);
+}
+
+.privacy-content {
+    margin-top: 42px;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.privacy-bl-title {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--primary-light);
+}
+
+.privacy-bl-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--gray-light);
+}
+
+.privacy-bl-list {
+    margin-top: 26px;
+    margin-left: 20px;
+
+    li {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 25px;
+        color: var(--gray-light);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -74,6 +74,10 @@
     font-size: 14px;
     text-align: center;
     color: var(--primary-light);
+
+    a {
+        color: var(--primary-light);
+    }
 }
 
 .footer-social {

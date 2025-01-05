@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Blog, Contact, Donate, Home } from '../../pages'
+import { About, Blog, Contact, Donate, Home, NotFound, Privacy } from '../../pages'
 
 const Main = () => {
     return (
@@ -24,6 +24,14 @@ const Main = () => {
             <Route
                 path='about'
                 element={<About/>}
+            />
+            <Route
+                path='privacy'
+                element={<Privacy/>}
+            />
+            <Route
+                path='*'
+                element={<NotFound/>}
             />
         </Routes>
     )

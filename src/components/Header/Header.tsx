@@ -10,7 +10,7 @@ const Header = () => {
            <nav>
             <ul className="header-nav d-f align-center">
                 <li className="header-nav-item drop-item d-f">
-                    <a href="">Episodes</a>
+                    <Link to="/episodes">Episodes</Link>
                     <button type="button" className='btn-clear d-b'><img src="/images/drop-icon.png" alt="drop" /></button>
                 </li>
                 <li className="header-nav-item"><Link to="/blog">Blog</Link></li>

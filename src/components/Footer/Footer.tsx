@@ -1,15 +1,16 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer className='footer'>
       <div className="d-f jc-sb">
         <ul className='footer-list'>
-          <li><a href="">Episodes</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Donate</a></li>
+          <li><Link to="/episodes">Episodes</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/donate">Donate</Link></li>
         </ul>
         <div>
           <h3 className="footer-newsletter-title">Newsletter</h3>
@@ -24,7 +25,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="footer-copyrights">PodcastTheme by VitaThemes | Privacy policy</div>
+      <div className="footer-copyrights">PodcastTheme by VitaThemes | <Link to="/privacy">Privacy policy</Link></div>
       <div className="footer-social d-f">
         <a href="">
           <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
