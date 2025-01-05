@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Blog.css'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
     return (
@@ -12,7 +13,7 @@ const Blog = () => {
                         <div>
                             <h3 className="blog-item-title">How to create your own podcast cover art?</h3>
                             <p className="blog-item-date">Dec 4, 2019</p>
-                            <a href="" className="blog-item-more">Read More</a>
+                            <Link to= "/post/0" className="blog-item-more">Read More</Link>
                         </div>
                     </div>
                     <div className="blog-item d-f">
@@ -20,7 +21,7 @@ const Blog = () => {
                         <div>
                             <h3 className="blog-item-title">How to create your own podcast cover art?</h3>
                             <p className="blog-item-date">Dec 4, 2019</p>
-                            <a href="" className="blog-item-more">Read More</a>
+                            <Link to= "/post/1" className="blog-item-more">Read More</Link>
                         </div>
                     </div>
                     <div className="blog-item d-f">
@@ -28,7 +29,7 @@ const Blog = () => {
                         <div>
                             <h3 className="blog-item-title">How to create your own podcast cover art?</h3>
                             <p className="blog-item-date">Dec 4, 2019</p>
-                            <a href="" className="blog-item-more">Read More</a>
+                            <Link to= "/post/0" className="blog-item-more">Read More</Link>
                         </div>
                     </div>
                 </div>
