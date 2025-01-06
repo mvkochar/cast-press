@@ -74,6 +74,115 @@ const Post = () => {
                         </div>
                     </div>
                 </div>
+                <div className="post-reply">
+                    <h2 className="post-reply-title">Leave a Reply</h2>
+                    <h4 className="post-reply-subtitle">Required fields are marked *</h4>
+                    <form action="" className='post-reply-fm'>
+                        <div className="input-bl">
+                            <label htmlFor="replyComment">Comment</label>
+                            <textarea name="replyComment" id="replyComment"></textarea>
+                        </div>
+                        <div className="input-bl">
+                            <label htmlFor="replyName">Name*</label>
+                            <input type="text" name='replyName' id='replyName' />
+                        </div>
+                        <div className="input-bl">
+                            <label htmlFor="replyEmail">Email*</label>
+                            <input type="email" name="replyEmail" id="replyEmail" />
+                        </div>
+                        <div className="input-bl input-bl-last">
+                            <label htmlFor="replyWebsite">Website*</label>
+                            <input type="url" name="replyWebsite" id="replyWebsite" />
+                        </div>
+                        <div className="check-bl d-f align-center">
+                            <input type="checkbox" name="replySave" id="replySave" />
+                            <label htmlFor="replySave">
+                                Save my name, email, and website in this browser for the next time I comment
+                            </label>
+                        </div>
+                        <button type="button">Submit</button>
+                    </form>
+                </div>
+                <div className="post-comments">
+                    <h2 className="post-comments-title">Comments</h2>
+                    <div className="post-comments-box d-f">
+                        <div className="comment-bl">
+                            <div className="post-comments-item d-f">
+                                <div className="comments-item-photo">
+                                    <img src="/images/comment-author1.png" alt="comment-author1" />
+                                </div>
+                                <div>
+                                    <div className="comments-item-info d-f">
+                                        <div className="comments-item-name">Mark Newman</div>
+                                        <div className="comments-item-date">October 24.2020</div>
+                                    </div>
+                                    <p className="comments-item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Sed at arcu dui. Aenean placerat.
+                                    </p>
+                                    <div className="reply-action d-f">
+                                        <button className='btn-clear d-b'>
+                                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8 4C13.2 4 16 7.8 16 14C14.5 11.6 13.3 10 8 10V14L0 7L8 0V4Z" fill="#979797" />
+                                            </svg>
+                                        </button>
+                                        <div className="reply-action-name">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="comment-reply-bl">
+                                <div className="post-comments-item d-f">
+                                    <div className="comments-item-photo">
+                                        <img src="/images/comment-author2.png" alt="comment-author2" />
+                                    </div>
+                                    <div>
+                                        <div className="comments-item-info d-f">
+                                            <div className="comments-item-name">Scarlet Withch</div>
+                                            <div className="comments-item-date">October 24.2020</div>
+                                        </div>
+                                        <p className="comments-item-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed at arcu dui. Aenean placerat.
+                                        </p>
+                                        <div className="reply-action d-f">
+                                            <button className='btn-clear d-b'>
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8 4C13.2 4 16 7.8 16 14C14.5 11.6 13.3 10 8 10V14L0 7L8 0V4Z" fill="#979797" />
+                                                </svg>
+                                            </button>
+                                            <div className="reply-action-name">Reply</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="comment-bl">
+                            <div className="post-comments-item d-f">
+                                <div className="comments-item-photo">
+                                    <img src="/images/comment-author1.png" alt="comment-author1" />
+                                </div>
+                                <div>
+                                    <div className="comments-item-info d-f">
+                                        <div className="comments-item-name">Mark Newman</div>
+                                        <div className="comments-item-date">October 24.2020</div>
+                                    </div>
+                                    <p className="comments-item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Sed at arcu dui. Aenean placerat.
+                                    </p>
+                                    <div className="reply-action d-f">
+                                        <button className='btn-clear d-b'>
+                                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8 4C13.2 4 16 7.8 16 14C14.5 11.6 13.3 10 8 10V14L0 7L8 0V4Z" fill="#979797" />
+                                            </svg>
+                                        </button>
+                                        <div className="reply-action-name">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
